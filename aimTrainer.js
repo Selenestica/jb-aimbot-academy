@@ -1,10 +1,10 @@
 function changeColor() {
-  document.getElementById("map").addEventListener("click", function () {
-    console.log("hey boa");
-    // if ((document.getElementById("map").style = "background-color: red;")) {
-    //   document.getElementById("map").style = "background-color: blue;";
-    // } else {
-    //   document.getElementById("map").style = "background-color: red;";
-    // }
+  document.addEventListener("click", function () {
+    const map = document.getElementById("map");
+    if (map.style === "background-color: red;") {
+      map.style = "background-color: blue;";
+    } else {
+      map.style = "background-color: red;";
+    }
   });
 }
