@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-#score {
+#misses {
   margin-left: 1rem;
 }
 
@@ -27,5 +27,13 @@
 }
 
 #time {
+  margin-left: 1rem;
+}
+
+#hits-text {
+  margin-left: 1rem;
+}
+
+#hits {
   margin-left: 1rem;
 }
