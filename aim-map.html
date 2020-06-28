@@ -5,8 +5,21 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <h1>Aimbot academy</h1>
-    <div onclick="changeColor()" id="map"></div>
+    <div id="main-container">
+      <div class="row">
+        <h1>Aimbot academy</h1>
+      </div>
+      <div class="row">
+        <p>Score:</p>
+        <p id="score"></p>
+      </div>
+      <div class="row">
+        <div id="map">
+          <div id="target"></div>
+        </div>
+      </div>
+    </div>
   </body>
-  <script src="aimTrainer.js"></script>
+  <script src="mapClick.js"></script>
+  <script src="targetClick.js"></script>
 </html>
