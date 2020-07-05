@@ -1,5 +1,15 @@
 let time = 0;
-window.setInterval(function () {
+window.onload = startTimer;
+
+function startTimer() {
+  timerVar = setInterval(timer, 1000);
+}
+
+function timer() {
   time += 1;
   document.getElementById("time").innerHTML = time;
-}, 1000);
+  if (time === 30) {
+    clearInterval(timerVar);
+    timerVar = null;
+  }
+}
