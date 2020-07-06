@@ -11,5 +11,11 @@ function timer() {
   if (time === 30) {
     clearInterval(timerVar);
     timerVar = null;
+    gameOver();
   }
+}
+
+function gameOver() {
+  document.getElementById("map").style.display = "none";
+  document.getElementById("game-over").style.display = "block";
 }

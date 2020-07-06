@@ -1,5 +1,5 @@
 function rand() {
-  return Math.round(Math.random() * 1000);
+  return Math.round(Math.random() * 1100);
 }
 
 let hits = 0;
